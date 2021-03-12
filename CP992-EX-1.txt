@@ -1,0 +1,17 @@
+1:Start
+2:Read(a,b,c,d)
+3:max=a,min=a
+4:if b>max then
+5:	max=b
+6:if b<min then
+7:	min=b
+8:if c>max then
+9:	max=c
+10:if c<min then
+11:	min=c
+12:if d>max then
+13:	max=d
+14:if d<min then
+16:	min=d
+17:Print(max,min)
+18:End

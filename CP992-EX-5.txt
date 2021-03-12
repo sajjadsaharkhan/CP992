@@ -1,0 +1,12 @@
+1:Start
+2:Read(a)
+3:min=a,max=a,i=1
+4:Read(a)
+5:if a > max then:
+6:	max = a
+7:if a < min then:
+8:	min = a
+9: i = i + 1
+9:while i <= 199 go to line 4
+10:Print(max,min)
+11:End

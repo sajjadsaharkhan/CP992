@@ -1,0 +1,13 @@
+1:Start
+2:Read(a,b,c)
+3:delta=a^2+4*a*c
+4:if delta = 0 then:
+5:	x=-b/(2*a)
+6:	Print(x)
+7:if delta > 0 then:
+8:	x1=(-b+sqrt(delta))/(2*a)
+9:	x2=-(b+sqrt(delta))/(2*a)
+10:	Print(x1,x2)
+11:if delta < 0 then:
+12: 	Print("No answer")
+13:End

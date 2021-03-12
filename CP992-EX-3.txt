@@ -1,0 +1,7 @@
+1:Start
+2:Read(a)
+3:if a>0 then
+4:	print("positive")
+5:else then
+6:	print("nagative")
+7:End
